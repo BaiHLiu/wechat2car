@@ -44,21 +44,21 @@ def get_type(msg):
         file = open_file(msg.file_name)
 
         #百度api车型识别参数初始化
-        APP_ID_type = '11688197'
-        API_KEY_type = 'hTfKPPNo7BgxA3tSlq17IxbI'
-        SECRET_KEY_type = '3gP3ZU9n19XtvyA99U0Aa8Or1AlGtMHp'
+        APP_ID_type = '**'
+        API_KEY_type = '**'
+        SECRET_KEY_type = '**'
         type_client = AipImageClassify(APP_ID_type,API_KEY_type,SECRET_KEY_type)
 
         #百度api车牌识别参数初始化
-        APP_ID_number = '11689666'
-        API_KEY_number = 'pks4e2P2Zcks12pHzzSOmYDF'
-        SECRET_KEY_number = 'XRk451xO8iyVPAbGKXIs51plbx6Rx4m7'
+        APP_ID_number = '**'
+        API_KEY_number = '**'
+        SECRET_KEY_number = '**'
         number_client = AipOcr(APP_ID_number,API_KEY_number,SECRET_KEY_number)
 
         #百度api人脸识别参数初始化
-        APP_ID = '14333678'
-        API_KEY = 'WWUtFk8qzH2CgtaGIBwGGAHT'
-        SECRET_KEY = 'UOzEyLvphtwP6q49TuHjxX7Gd2lo50GG'
+        APP_ID = '**'
+        API_KEY = '**'
+        SECRET_KEY = '**'
         face_client = AipFace(APP_ID, API_KEY, SECRET_KEY)
 
 
